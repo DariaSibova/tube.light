@@ -30,8 +30,14 @@ h2{
 @keyframes animate {
   0%{
     color: #0e3742;
+    box-shadow: none;
   }
   100%{
     color: #fff;
+    box-shadow: 0 0 10px #03bcf4,
+     0 0 10px #03bcf4,
+     0 0 10px #03bcf4;
+
+
   }
 }
