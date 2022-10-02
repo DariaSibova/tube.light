@@ -23,4 +23,15 @@ h2{
   text-align: center;
   -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
   line-height: 0.70em;
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%{
+    color: #0e3742;
+  }
+  100%{
+    color: #fff;
+  }
 }
