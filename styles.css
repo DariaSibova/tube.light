@@ -28,7 +28,7 @@ h2{
 }
 
 @keyframes animate {
-  0%{
+  0%,18%,20%,{
     color: #0e3742;
     text-shadow: none;
   }
